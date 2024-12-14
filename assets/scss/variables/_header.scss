@@ -1,0 +1,41 @@
+// //////////header/////////////
+header {
+    padding: 17px 103px!important;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+
+    &.active{
+        background-color: var(--white);
+        box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    }
+    .left-nav{
+        .logo{
+            .header-logo{
+                height: auto;
+                transition: all 0.5s;
+                &.active{
+                    width: 100px;
+                }
+            }
+        }
+    }
+
+    .right-nav {
+        ul {
+            li {
+                margin-right: 95px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+
+                p {
+                    font-size: 21px;
+                    color: var(--brand-color_5);
+                    font-weight: 700;
+                }
+            }
+        }
+    }
+}

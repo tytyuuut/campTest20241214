@@ -1,0 +1,30 @@
+////footer//////////
+footer{
+    padding-top: 82px!important;
+    background-color: var(--white);
+    hr{
+        background-color: var(--brand-color_5);
+    }
+    .footer-logo{
+        width: 246px;
+        display: block;
+        margin: 0 auto;
+        margin-top: 49px;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        width: 621px;
+        margin: auto;
+        margin-top: 49px;
+        padding-bottom: 79px;
+        li{
+            color: var(--brand-color_5);
+            p{
+                font-size: 21px;
+                color: var(--brand-color_5);
+                font-weight: 700;
+            }
+        }
+    }
+}
