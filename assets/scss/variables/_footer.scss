@@ -14,17 +14,49 @@ footer{
     ul{
         display: flex;
         justify-content: space-between;
-        width: 621px;
+        width: 800px;
         margin: auto;
         margin-top: 49px;
         padding-bottom: 79px;
         li{
             color: var(--brand-color_5);
+            text-align: center;
             p{
                 font-size: 21px;
                 color: var(--brand-color_5);
                 font-weight: 700;
             }
+            .footer-item{
+                p{
+                    font-weight: 300;
+                    margin-top: 20px;
+                    font-size: 18px;
+                }
+            }
+            
         }
+    }
+    .button-icon{
+        width: 600px;
+        margin-bottom: 110px;
+        .title{
+            font-weight: 700;
+            margin-bottom: 25px;
+            margin-top: 10px;
+        }
+        p{
+            font-weight: 300;
+        }
+        img{
+            width: 40px;
+            height: 40px;
+        }
+    }
+    .copyright{
+        background-color: var(--brand-color_5);
+        color: var(--white);
+        font-size: 20px;
+        padding: 27px 0;
+        text-align: center;
     }
 }
