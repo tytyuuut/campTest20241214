@@ -15,6 +15,11 @@ header =
                 </li>
                 <li class="item">
                     <a href="">
+                        <p>文章列表</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
                         <p>商品列表</p>
                     </a>
                 </li>
@@ -26,6 +31,22 @@ header =
                 <li class="item">
                     <a href="">
                         <p>會員專區</p>
+                    </a>
+                </li>
+                <li class="item">
+                    <form class="d-flex" role="search">
+                        <input class="form-control search-input" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn search-bg" type="submit"><img src="assets/images/header/search.png"></button>
+                    </form>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="assets/images/header/cart.png">
+                    </a>
+                </li>
+                <li class="item">
+                    <a href="">
+                        <img src="assets/images/header/user.png">
                     </a>
                 </li>
             </ul>
